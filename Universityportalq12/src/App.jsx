@@ -3,7 +3,7 @@ import { useState } from "react";
 import Home from "./Components/Home";
 import Students from "./Components/Students";
 import AddStudent from "./Components/Addstudent";
-import Faculty from "./components/facult";
+import Faculty from "./Components/facult";
 function App() {
   const [students, setStudents] = useState([])
   const [faculty] = useState([
