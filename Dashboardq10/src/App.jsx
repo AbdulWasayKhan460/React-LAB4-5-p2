@@ -3,7 +3,7 @@ import "./App.css";
 
 import Profile from "./components/Profile";
 import Settings from "./components/Settings";
-import Orders from "./components/Orders";
+import Orders from "./components/orders";
 
 function App() {
   const [activeTab, setActiveTab] = useState("profile");
