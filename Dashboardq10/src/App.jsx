@@ -1,9 +1,9 @@
 import { useState } from "react";
 import "./App.css";
 
-import Profile from "./components/Profile";
-import Settings from "./components/Settings";
-import Orders from "./components/orders";
+import Profile from "./Components/Profile";
+import Settings from "./Components/Settings";
+import Orders from "./Components/orders";
 
 function App() {
   const [activeTab, setActiveTab] = useState("profile");
